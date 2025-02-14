@@ -10,7 +10,7 @@ export default function MainHub() {
     const buttons = [
         { href: "/pictures", text: "Our Memories (◕‿◕)♡" },
         { href: "/eating", text: "Dinner Plans ♨(⋆‿⋆)♨" },
-        { href: "/scheduling", text: "Plan Our Date (づ￣ ³￣)づ" },
+        { href: "/camera", text: "Take A Picture ヾ(•ω•`)o" },
         { href: "/surprise", text: "A Special Surprise ✧◝(⁰▿⁰)◜✧" },
     ]
 
@@ -27,15 +27,6 @@ export default function MainHub() {
                         >
                             Happy Valentine's Day, My Love! ♡(ӦｖӦ｡)
                         </motion.h1>
-                        <Link href="/fun">
-                            <motion.button
-                                className="bg-rose-300 text-rose-700 p-2 rounded-full"
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}
-                            >
-                                📷
-                            </motion.button>
-                        </Link>
                     </div>
                     <motion.p
                         className="text-xl text-rose-500 mb-8"
