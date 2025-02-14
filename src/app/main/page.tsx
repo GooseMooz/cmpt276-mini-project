@@ -10,7 +10,7 @@ export default function MainHub() {
     const buttons = [
         { href: "/pictures", text: "Our Memories (◕‿◕)♡" },
         { href: "/eating", text: "Dinner Plans ♨(⋆‿⋆)♨" },
-        { href: "/scheduling", text: "Plan Our Date (づ￣ ³￣)づ" },
+        { href: "/camera", text: "Take A Picture ヾ(•ω•`)o" },
         { href: "/surprise", text: "A Special Surprise ✧◝(⁰▿⁰)◜✧" },
     ]
 
@@ -27,15 +27,6 @@ export default function MainHub() {
                         >
                             Happy Valentine's Day, My Love! ♡(ӦｖӦ｡)
                         </motion.h1>
-                        <Link href="/fun">
-                            <motion.button
-                                className="bg-rose-300 text-rose-700 p-2 rounded-full"
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.9 }}
-                            >
-                                📷
-                            </motion.button>
-                        </Link>
                     </div>
                     <motion.p
                         className="text-xl text-rose-500 mb-8"
@@ -43,7 +34,7 @@ export default function MainHub() {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        Let's celebrate our love with these special activities:
+                        Let's see what fun stuff I prepared for you!
                     </motion.p>
                     <div className="grid grid-cols-2 gap-4">
                         {buttons.map((button, index) => (
@@ -63,8 +54,8 @@ export default function MainHub() {
                     </div>
                 </div>
                         <Image
-                            src={"/cat_drawings/ICONIC.png"}
-                            alt="Cute Cat"
+                            src={"/cat_drawings/FLOWERS.png"}
+                            alt="Flowers Cat"
                             width={200}
                             height={200}
                             className="absolute object-cover inset-y-1/4"
