@@ -14,10 +14,6 @@ export default function Pictures() {
         "/pictures/temp6.jpg",
         "/pictures/temp7.jpg",
         "/pictures/temp8.jpg",
-        "/pictures/temp9.jpg",
-        "/pictures/temp10.jpg",
-        "/pictures/temp11.jpg",
-        "/pictures/temp12.jpg",
     ]
 
     return (
@@ -44,6 +40,13 @@ export default function Pictures() {
                 ))}
             </div>
             <HomeButton />
+            <Image
+                src={"/cat_drawings/HEART_JUMP.png"}
+                alt="Heart Jump Cat"
+                width={200}
+                height={200}
+                className="fixed object-cover bottom-20 left-1/2 -translate-x-1/2"
+            />
         </div>
     )
 }
