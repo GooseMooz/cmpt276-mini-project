@@ -93,6 +93,13 @@ export default function Eating() {
                 </motion.p>
             )}
             <HomeButton />
+            <Image
+                src={"/cat_drawings/MUNCH.png"}
+                alt="Eating Cat"
+                width={200}
+                height={200}
+                className="absolute object-cover top-20"
+            />
         </div>
     )
 }
