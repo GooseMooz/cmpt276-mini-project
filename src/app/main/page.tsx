@@ -34,7 +34,7 @@ export default function MainHub() {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        Let's celebrate our love with these special activities:
+                        Let's see what fun stuff I prepared for you!
                     </motion.p>
                     <div className="grid grid-cols-2 gap-4">
                         {buttons.map((button, index) => (
