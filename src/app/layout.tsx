@@ -5,8 +5,7 @@ import type React from "react"
 const inter = Inter({subsets: ["latin"]})
 
 export const metadata = {
-    title: "Our Valentine's Day Adventure",
-    description: "A special journey through our love",
+    title: "༼ つ ◕_◕ ༽つ",
 }
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${inter.className} bg-pink-50`}>
-                <main className="container mx-auto p-4">{children}</main>
+                <main className="container mx-auto">{children}</main>
             </body>
         </html>
     )
