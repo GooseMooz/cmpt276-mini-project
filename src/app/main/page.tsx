@@ -54,8 +54,8 @@ export default function MainHub() {
                     </div>
                 </div>
                         <Image
-                            src={"/cat_drawings/ICONIC.png"}
-                            alt="Cute Cat"
+                            src={"/cat_drawings/FLOWERS.png"}
+                            alt="Flowers Cat"
                             width={200}
                             height={200}
                             className="absolute object-cover inset-y-1/4"
