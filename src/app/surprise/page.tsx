@@ -4,6 +4,7 @@ import { useEffect } from "react"
 import { motion } from "framer-motion"
 import confetti from "canvas-confetti"
 import { HomeButton } from "@/components/HomeButton"
+import Image from "next/image";
 
 export default function Surprise() {
     useEffect(() => {
@@ -41,6 +42,13 @@ export default function Surprise() {
                 transition={{ delay: 1, duration: 0.5 }}
             />
             <HomeButton />
+            <Image
+                src={"/cat_drawings/HAPPY.png"}
+                alt="Happy Cat"
+                width={200}
+                height={200}
+                className="absolute object-cover top-4"
+            />
         </div>
     )
 }
