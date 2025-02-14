@@ -25,7 +25,7 @@ export default function MainHub() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
                         >
-                            Happy Valentine's Day, My Love! ♡(ӦｖӦ｡)
+                            {`Happy Valentine's Day, My Love! ♡(ӦｖӦ｡)`}
                         </motion.h1>
                     </div>
                     <motion.p
@@ -34,7 +34,7 @@ export default function MainHub() {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5, duration: 1 }}
                     >
-                        Let's see what fun stuff I prepared for you!
+                        {`Let's see what fun stuff I prepared for you!`}
                     </motion.p>
                     <div className="grid grid-cols-2 gap-4">
                         {buttons.map((button, index) => (
